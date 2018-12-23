@@ -13,3 +13,9 @@
 * if it is smaller, search the half with higher indices
 
 Notation a[lo, hi) => lo <= a < hi
+
+
+### Mergesort Algorithm
+* Divided array into two half
+* recursively sort each half
+* merge two halves to make sorted whole
