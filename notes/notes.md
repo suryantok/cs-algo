@@ -19,3 +19,16 @@ Notation a[lo, hi) => lo <= a < hi
 * Divided array into two half
 * recursively sort each half
 * merge two halves to make sorted whole
+
+### Sequential data structure
+* Put objects to one next another
+* consecutive memory
+* Java array
+* Fixed size, arbitrary access
+  
+### Linked data structure
+* associate with each object a link to another object
+* link is a memory object of another object
+* Java link is reference
+* Variable size, sequential access
+* 
