@@ -12,7 +12,6 @@ public class Generator{
         }
         String data = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         Random rd = new Random();
-        System.out.println();
         for (int i =0; i < num; i++){
             StringBuilder sb = new StringBuilder(length);
             for (int j=0; j< length; j++){

@@ -32,8 +32,12 @@ public class Utils {
                 sb.append(chr);
             }
             System.out.println(sb.toString());
-            String[] data = sb.toString().split("\n");
-            if (data.length <  2) data = loadData(path);            
+            String allString =sb.toString().trim();
+            String[] data = new String[0];
+            if (allString.isEmpty())
+                data = loadData(path);
+            else
+                data = allString.split("\n");
             return data;
         } catch(Exception e){
             System.out.println(e.getMessage());    

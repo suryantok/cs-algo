@@ -2,6 +2,7 @@ package com.suryanto.app;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
+import java.util.Scanner;
 
 /**
  * Hello world!
@@ -32,9 +33,16 @@ public class App
     }
     public static void main( String[] args )
     {
-                
-        
-        
+      
+        Scanner scan = new Scanner(System.in);
+        String a = scan.next();
+        // Complete this line
+        // Complete this line
+
+        System.out.println(a);
+        // Complete this line
+        // Complete this line       
+
         System.out.println( "Hello World!" );
     }
 }
