@@ -31,4 +31,8 @@ Notation a[lo, hi) => lo <= a < hi
 * link is a memory object of another object
 * Java link is reference
 * Variable size, sequential access
-* 
+
+
+### Binary Search Tree (BTS)
+* data type double-linked list
+* a recursive daa structure c
